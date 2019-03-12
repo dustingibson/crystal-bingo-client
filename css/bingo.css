@@ -1,0 +1,38 @@
+.bingo-table {
+    width: 700px;
+    height: 700px;
+    table-layout: fixed;
+    border: 1px solid #141414;
+}
+
+.bingo-cell {
+    width: 140px;
+    height: 140px;
+    border: 1px solid #141414;
+    background-color: #141414;
+}
+
+.marker {
+    height: 25px;
+    width: 25px;
+    background-color: #00ff00;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.desc {
+    text-align: center;
+}
+
+.content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin: 50px;
+
+}
+
+body {
+    background-color: #333333;
+    color: #ffffff;
+}
